@@ -12,6 +12,7 @@ public class SupplierExam {
 	
 	public static void main(String[] args) {
 		
+		//주석 추가요~
 		
 		IntSupplier int2 = ()->{return new Random().nextInt(50);};
 		Supplier<String> st = ()->{return "d";};
@@ -26,7 +27,6 @@ public class SupplierExam {
 		}
 //		
 		list.forEach(System.out::println);
-		
 	}
 
 }
