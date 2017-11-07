@@ -12,8 +12,9 @@ public class SupplierExam {
 	
 	public static void main(String[] args) {
 		
-		//ÁÖ¼® Ãß°¡¿ä~
-		//ÁÖ¼®ÇÏ³ª´õ
+		//ì£¼ì„ ì¶”ê°€ìš”~
+		//ì£¼ì„í•˜ë‚˜ë”
+		//ì£¼ì„ ì¶”ê°€~~~
 		
 		IntSupplier int2 = ()->{return new Random().nextInt(50);};
 		Supplier<String> st = ()->{return "d";};
