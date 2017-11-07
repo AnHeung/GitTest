@@ -30,5 +30,9 @@ public class SupplierExam {
 //		
 		list.forEach(System.out::println);
 	}
+	//메소드 추가
+	public void addMethod(){
+		System.out.println("브랜치 추가");
+	}
 
 }
